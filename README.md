@@ -4,11 +4,6 @@ A comprehensive AI-powered hotel search and discovery application built with Str
 
 **Author:** Bhavana Ediga
 
-## Contact
-
-- **Email:** [your email]
-- **GitHub:** [your GitHub]
-
 ## Features
 
 ### Smart search capabilities
