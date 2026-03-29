@@ -165,11 +165,3 @@ suitedreams-ai/
 
 - Lower max results or increase timeout in the sidebar
 
-## License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file.
-
-## Support
-
-- **Issues:** [your GitHub issues URL]
-- **Documentation:** This repository
