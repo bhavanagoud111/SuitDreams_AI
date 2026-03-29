@@ -1,5 +1,3 @@
-![demo](./assets/adv-hotel-finder.gif)
-
 # SuiteDreams AI
 
 A comprehensive AI-powered hotel search and discovery application built with Streamlit and integrated with Model Context Protocol (MCP) servers. SuiteDreams AI provides advanced filtering capabilities, detailed property information retrieval, and intelligent search recommendations.
