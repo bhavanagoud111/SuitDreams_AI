@@ -73,9 +73,6 @@ A comprehensive AI-powered hotel search and discovery application built with Str
    ```bash
    streamlit run app.py
    ```
-
-   ![demo](./assets/hotel-finder.gif)
-
 ## Configuration
 
 ### API keys
