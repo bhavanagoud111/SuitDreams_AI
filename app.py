@@ -1,5 +1,4 @@
 # SuiteDreams AI
-# Author: Bhavana Ediga
 # GitHub: github.com/bhavanagoud111
 
 import asyncio
@@ -37,7 +36,8 @@ with st.sidebar:
 
     st.image("./assets/Nebius.png", width=150)
     api_key = st.text_input(
-        "Nebius API Key", 
+        "Nebius API Key",
+        value=os.getenv("NEBIUS_API_KEY", ""),
         type="password",
         help="Enter your Nebius API key for AI model access"
     )

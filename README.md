@@ -9,7 +9,7 @@ A comprehensive AI-powered hotel search and discovery application built with Str
 ### Smart search capabilities
 
 - **AI-powered queries**: Natural language hotel search with intelligent query processing
-- **Multiple search modes**: Quick search, advanced filtering, and detailed hotel information
+- **Two search modes**: Quick Search and Advanced Search (with detailed filters)
 - **Location intelligence**: Support for cities, states, regions, and specific areas
 - **Date-based filtering**: Check-in and check-out date support with validation
 - **Guest configuration**: Flexible guest settings (adults, children, infants, pets)
@@ -48,11 +48,11 @@ A comprehensive AI-powered hotel search and discovery application built with Str
 
 ### Setup
 
-1. **Clone or copy this project** into a folder of your choice (for example `suitedreams-ai`):
+1. **Clone the repository**:
 
    ```bash
-   git clone [your repository URL]
-   cd suitedreams-ai
+   git clone https://github.com/bhavanagoud111/SuitDreams_AI.git
+   cd SuitDreams_AI
    ```
 
 2. **Install dependencies**:
@@ -71,7 +71,7 @@ A comprehensive AI-powered hotel search and discovery application built with Str
 4. **Run SuiteDreams AI**:
 
    ```bash
-   streamlit run app.py
+   uv run streamlit run app.py
    ```
 ## Configuration
 
@@ -83,7 +83,6 @@ A comprehensive AI-powered hotel search and discovery application built with Str
 
 - **Request timeout**: Configure maximum wait time for searches (10–60 seconds)
 - **Max results**: Set maximum number of hotels per search (5–50 results)
-- **Robots.txt compliance**: Option to bypass robots.txt restrictions (via MCP args)
 - **AI model selection**: Choose from available Nebius models
 - **Response creativity**: Adjust AI response temperature (0.0–1.0)
 
@@ -104,14 +103,10 @@ A comprehensive AI-powered hotel search and discovery application built with Str
 3. Review the generated query
 4. Execute the search
 
-### Listing details
-
-Use the flows described in the app UI for listing-specific lookups when available.
-
 ## Architecture (overview)
 
 - **Streamlit frontend**: Interactive web interface with multi-tab layout
-- **MCP integration**: Model Context Protocol for hotel/listing data access
+- **MCP integration**: Model Context Protocol for hotel/listing data access via the `@openbnb/mcp-server-airbnb` server (started with `--ignore-robots-txt`)
 - **AI agent**: Nebius-powered natural language processing (SuiteDreams AI)
 - **Async processing**: Non-blocking search execution
 
@@ -132,13 +127,13 @@ Use the flows described in the app UI for listing-specific lookups when availabl
 ### Project structure
 
 ```
-suitedreams-ai/
+SuitDreams_AI/
 ├── app.py                 # Main Streamlit application (SuiteDreams AI)
 ├── pyproject.toml         # Project configuration and dependencies
+├── uv.lock                # Locked dependency versions for uv
 ├── README.md              # This documentation
-├── LICENSE                # MIT License
 ├── .env.example           # Environment variables template
-└── assets/                # Static assets (logos, images)
+└── assets/                # Static assets (logo and demo GIFs)
 ```
 
 ### Code style

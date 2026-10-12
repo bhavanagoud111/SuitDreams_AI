@@ -5,7 +5,7 @@ description = "SuiteDreams AI — hotel search and discovery with Streamlit, MCP
 readme = "README.md"
 requires-python = ">=3.11"
 authors = [
-    { name = "Bhavana Ediga", email = "[your email]" },
+    { name = "Bhavana Ediga" },
 ]
 dependencies = [
     "agno>=1.7.7",
@@ -18,8 +18,8 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "[your repository URL]"
-Repository = "[your GitHub]"
+Homepage = "https://github.com/bhavanagoud111/SuitDreams_AI"
+Repository = "https://github.com/bhavanagoud111/SuitDreams_AI"
 
 [project.optional-dependencies]
 dev = [
