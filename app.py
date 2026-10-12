@@ -1,5 +1,4 @@
 # SuiteDreams AI
-# Author: Bhavana Ediga
 # GitHub: github.com/bhavanagoud111
 
 import asyncio
